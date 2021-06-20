@@ -1,0 +1,6 @@
+---
+
+stack_tags:
+   Purpose: twecs
+
+template_path: cloudformation/lambda_repository.yaml

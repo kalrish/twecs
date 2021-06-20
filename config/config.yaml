@@ -1,0 +1,6 @@
+---
+
+project_code: twecs
+region: us-east-1
+
+python_version: '3.8'

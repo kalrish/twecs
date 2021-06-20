@@ -1,0 +1,14 @@
+---
+
+parameters:
+   RepositoryBucket: !stack_output repository.yaml::BucketName
+   GitCommitId: >-
+      da51de074dd74d63f3c0287e75c5482346fe142c
+   PythonPackageName: twecs.wise
+   PythonVersions:
+      - python3.8
+
+stack_tags:
+   Purpose: twecs
+
+template_path: cloudformation/layer.yaml
