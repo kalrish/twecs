@@ -1,5 +1,8 @@
 ---
 
+parameters:
+   ExpirationInDays: '1'
+
 stack_tags:
    Purpose: twecs
 
