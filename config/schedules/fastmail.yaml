@@ -1,0 +1,20 @@
+---
+
+parameters:
+   FunctionArn: !stack_output wise.yaml::FunctionArn
+   ScheduleExpression: >-
+      cron(0 7 1 * ? *)
+   State: ENABLED
+
+sceptre_user_data:
+   wise:
+      amount: 4.3
+      amount_side: target
+      reference: Fastmail
+      source_currency: EUR
+      target_currency: USD
+
+stack_tags:
+   Purpose: twecs
+
+template_path: sceptre/schedule.py
