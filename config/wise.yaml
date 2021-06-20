@@ -12,6 +12,6 @@ parameters:
    WiseApiKeySecretArn: !stack_output secrets/wise.yaml::SecretArn
 
 stack_tags:
-   Purpose: twecs
+   Purpose: scheduled currency exchanges
 
 template_path: cloudformation/wise.yaml

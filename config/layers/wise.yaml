@@ -9,6 +9,6 @@ parameters:
       - python3.8
 
 stack_tags:
-   Purpose: twecs
+   Purpose: scheduled currency exchanges
 
 template_path: cloudformation/layer.yaml

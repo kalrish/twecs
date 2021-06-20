@@ -4,6 +4,6 @@ parameters:
    DeleteAfterDays: '1'
 
 stack_tags:
-   Purpose: twecs
+   Purpose: scheduled currency exchanges
 
 template_path: cloudformation/repository.yaml
