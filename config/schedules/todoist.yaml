@@ -1,0 +1,20 @@
+---
+
+parameters:
+   FunctionArn: !stack_output wise.yaml::FunctionArn
+   ScheduleExpression: >-
+      cron(0 7 L * ? *)
+   State: ENABLED
+
+sceptre_user_data:
+   wise:
+      amount: 3
+      amount_side: target
+      reference: Todoist
+      source_currency: EUR
+      target_currency: USD
+
+stack_tags:
+   Purpose: twecs
+
+template_path: sceptre/schedule.py
