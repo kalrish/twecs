@@ -1,7 +1,7 @@
 ---
 
 parameters:
-   ExpirationInDays: '1'
+   DeleteAfterDays: '1'
 
 stack_tags:
    Purpose: twecs
