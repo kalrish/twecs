@@ -3,7 +3,7 @@
 parameters:
    RepositoryBucket: !stack_output repository.yaml::BucketName
    GitCommitId: >-
-      4bd246fdcbce0bfa0ad292493b80947163b6ce66
+      9bda836a765587dd391f62bdc8f21114cdca2aff
    PythonPackageName: twecs.aws.lambda
    PythonVersions:
       - python3.8
