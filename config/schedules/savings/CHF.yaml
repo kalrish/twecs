@@ -16,5 +16,6 @@ sceptre_user_data:
 
 stack_tags:
    Purpose: twecs
+   exchange-purpose: savings
 
 template_path: sceptre/schedule.py
