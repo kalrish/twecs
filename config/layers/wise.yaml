@@ -3,7 +3,7 @@
 parameters:
    RepositoryBucket: !stack_output repository.yaml::BucketName
    GitCommitId: >-
-      657a17ec76694273969836c14fde90688d873d8d
+      293ab9759f85386e6a48fa38d23c3023baca9f92
    PythonPackageName: twecs.wise
    PythonVersions:
       - python3.8
