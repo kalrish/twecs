@@ -3,7 +3,7 @@
 parameters:
    FunctionArn: !stack_output wise.yaml::FunctionArn
    ScheduleExpression: >-
-      cron(0 7 L * ? *)
+      cron(0 7 1 * ? *)
    State: ENABLED
 
 sceptre_user_data:
