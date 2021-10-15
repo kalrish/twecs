@@ -9,7 +9,7 @@ parameters:
       - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
    PythonVersion: '{{ python_version }}'
    WiseApiBaseUrl: https://api.transferwise.com
-   WiseApiKeySecretArn: !stack_output secrets/wise.yaml::SecretArn
+   WiseApiKey: {{ var.wise_api_key }}
 
 stack_tags:
    Purpose: scheduled currency exchanges
