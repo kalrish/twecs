@@ -1,0 +1,22 @@
+---
+
+extends:
+  - eslint:recommended
+
+root: true
+
+
+overrides:
+
+  -
+    extends:
+      - plugin:@typescript-eslint/eslint-recommended
+      - plugin:@typescript-eslint/recommended
+    files:
+      - bin/*.ts
+      - lib/*.ts
+    parser: '@typescript-eslint/parser'
+    parserOptions:
+      project: ./tsconfig.json
+    plugins:
+      - '@typescript-eslint'
