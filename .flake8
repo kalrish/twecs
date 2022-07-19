@@ -1,0 +1,10 @@
+[flake8]
+exclude =
+	.git,
+filename =
+	lambda/*.py,
+ignore =
+	# Shortening lines to fit them on screen mixes up content and display. Fix your editor, not my code.
+	E501,
+	# tabs FTW
+	W191,
