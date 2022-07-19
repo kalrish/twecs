@@ -1,27 +1,12 @@
 {
 	"compilerOptions": {
-		"alwaysStrict": true,
-		"declaration": true,
-		"experimentalDecorators": true,
-		"inlineSourceMap": true,
-		"inlineSources": true,
+		"allowSyntheticDefaultImports": true,
 		"lib": [
-			"es2018"
+			"es2022"
 		],
-		"module": "commonjs",
-		"noFallthroughCasesInSwitch": false,
-		"noImplicitAny": true,
-		"noImplicitReturns": true,
-		"noImplicitThis": true,
-		"noUnusedLocals": false,
-		"noUnusedParameters": false,
-		"strict": true,
-		"strictNullChecks": true,
-		"strictPropertyInitialization": false,
-		"target": "ES2018",
-		"typeRoots": [
-			"./node_modules/@types"
-		]
+		"module": "ES2020",
+		"moduleResolution": "node",
+		"target": "ES2022"
 	},
 	"exclude": [
 		"cdk.out",
