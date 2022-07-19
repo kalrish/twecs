@@ -38,4 +38,3 @@ jobs:
         name: Lint Python code
         run: >-
           flake8
-          --verbose
