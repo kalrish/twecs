@@ -1,0 +1,10 @@
+---
+
+name: Code linting
+
+on:
+  pull_request:
+    types:
+      - edited
+      - opened
+      - synchronize
