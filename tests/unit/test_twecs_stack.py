@@ -3,6 +3,7 @@ import aws_cdk.assertions as assertions
 
 from twecs.twecs_stack import TwecsStack
 
+
 # example tests. To run these tests, uncomment this file along with the example
 # resource in twecs/twecs_stack.py
 def test_sqs_queue_created():
