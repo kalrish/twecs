@@ -6,6 +6,8 @@ import aws_cdk as cdk
 from twecs.twecs_stack import TwecsStack
 
 
-app = cdk.App()
+app = cdk.App(
+)
 
-app.synth()
+app.synth(
+)
