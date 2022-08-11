@@ -1,17 +1,17 @@
-import aws_cdk as core
-import aws_cdk.assertions as assertions
+import aws_cdk
+import aws_cdk.assertions
 
-from twecs.twecs_stack import TwecsStack
+import twecs.twecs_stack
 
 
 def test_sqs_queue_created(
 ):
-    app = core.App(
+    app = aws_cdk.App(
     )
-    stack = TwecsStack(
+    stack = twecs.twecs_stack.TwecsStack(
         app,
         "twecs",
     )
-    template = assertions.Template.from_stack(
+    template = aws_cdk.assertions.Template.from_stack(
         stack,
     )

@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 import os
 
-import aws_cdk as cdk
+import aws_cdk
 
-from twecs.twecs_stack import TwecsStack
+import twecs.twecs_stack
 
 
-app = cdk.App(
+app = aws_cdk.App(
 )
 
 app.synth(

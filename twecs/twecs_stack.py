@@ -1,16 +1,14 @@
-from aws_cdk import (
-    Stack,
-)
-from constructs import Construct
+import aws_cdk
+import constructs
 
 
 class TwecsStack(
-    Stack,
+    aws_cdk.Stack,
 ):
 
     def __init__(
         self,
-        scope: Construct,
+        scope: constructs.Construct,
         construct_id: str,
         **kwargs,
     ) -> None:
