@@ -59,10 +59,11 @@ jobs:
           # same Python version as Lambda
           python-version: '3.9'
       -
-        name: Install pytest
+        name: Install pytest and dependencies
         run: >-
           pip
           install
+          --requirement requirements.txt
           --
           pytest
       -
